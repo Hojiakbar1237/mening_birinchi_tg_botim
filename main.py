@@ -62,7 +62,5 @@ async def get_kamandalar(message: types.Message):
     await message.answer(text=text)
 
 
-
-
 if __name__ == '__main__':
     executor.start_polling(dispatcher=dp)
